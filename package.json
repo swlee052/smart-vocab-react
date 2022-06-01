@@ -1,0 +1,20 @@
+{
+  "author": "Sungwoo Lee <swlee052@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha ./**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node-fetch": "^2.6.1",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
